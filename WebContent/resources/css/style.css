@@ -1,0 +1,185 @@
+.x-box-inner {
+	
+	overflow: visible;
+}
+
+/* EDICION DE LOS TITULOS DE LOS PANELES A NIVEL GLOBAL */
+.x-panel-header {
+	height: 30px;
+	text-align: center;
+	border-radius: 10px 10px 0 0;
+}
+.x-panel-header-text-default {
+	font-size: 14px;
+	
+}
+
+
+/** MAIN */
+.x-main {
+	margin-left: 20px;
+	margin-top: 20px;
+	box-shadow: 10px 10px 5px #888888;
+	border: 1px solid #99bce8;	
+	border-radius: 10px 10px 0 0;
+}
+.x-game-panel:hover,.x-main:hover {
+	background: rgb(200, 222, 226);
+    transform: scale(1.06);
+    z-index: 10000;
+    opacity: 1 !important;
+
+} 
+
+.x-game-panel {
+	margin-left: 20px;
+	margin-top: 20px;
+	box-shadow: 10px 10px 5px #888888;
+	border: 1px solid #99bce8;	
+	border-radius: 10px 10px 0 0;
+} 
+
+
+/**** PANEL DE BANDERAS *****/
+.x-label-flags {
+	font-size: 14px;
+	font-weight: 600;
+	color: rgb(51, 53, 210);
+}
+
+.x-container-flags {
+	margin-top: 10px;
+}
+
+.x-btn-flag:hover {
+	background: rgb(200, 222, 226);
+    transform: scale(1.2);
+    opacity: 1 !important;
+
+}
+
+/**** PANEL DE NIVELES *****/
+.x-label-levels {
+	font-size: 14px;
+	font-size: 14px;
+	font-weight: 600;
+	color: rgb(51, 53, 210);
+}
+
+.x-container-levels {
+	margin-top: 10px;
+}
+
+.x-btn-level {
+	text-align: center;
+	width: 80px;
+}
+
+.x-btn .x-btn-center .x-btn-inner {
+	font-weight: bold;
+}
+
+.x-btn-level:hover {
+	background: rgb(200, 222, 226);
+    transform: scale(1.2);
+    opacity: 1 !important;
+
+}
+
+/**** INSTRUCIONES DEL JUEGO *****/
+.x-label-instructions {
+	font-size: 14px;
+	font-weight: 600;
+	color: rgb(51, 53, 210);
+}
+
+
+
+/** GAME PANEL *//
+
+.x-btn.x-btn-add-letter {
+	margin: 0 auto;
+	display: table;	
+}
+
+.x-text-letter .x-form-text {
+	font-size: 50px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.x-lose, .x-win {
+	opacity: 1;
+	width: 500px !important;
+	height: 115px !important;
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 27px;
+	background: rgb(210, 214, 240);
+	text-align: center;
+	border-radius: 15px;
+	box-shadow: 10px 10px 5px #888888;
+	z-index: 10;
+}
+.message {
+	font-size: 50px;
+	text-align: center;
+	margin-top: 25px;
+}
+
+body {
+	font-family: Roboto, sans-serif;
+	background-color: #f2f2f2;
+}
+
+.content {
+}
+
+.word {
+	display: inline-block;
+}
+
+.word_form {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.card_aux {
+	float: left;
+	height: 140px;
+	width: 1px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.card_human {
+	padding-top: 10px;
+	float: left;
+	background-color: #E8486C;
+	height: 80px;
+	width: 70px;
+	color: white;
+	font-size: 50px;
+	text-align: center;
+	margin: 8px;
+}
+
+.card_computer {
+	padding-top: 10px;
+	float: left;
+	background-color: #34D8DF;
+	height: 80px;
+	width: 70px;
+	color: white;
+	font-size: 50px;
+	text-align: center;
+	margin: 8px;
+}
+
+.button_send {
+	font-weight: bold;
+	padding: 8px;
+	margin: 10px;
+	background-color: #ffb740;
+	color: white;
+}

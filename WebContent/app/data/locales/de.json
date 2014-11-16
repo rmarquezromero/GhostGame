@@ -1,0 +1,45 @@
+{
+    
+    "field": {
+		"label": {
+			"level": "Ebene",
+			"chooseLanguage": "Wählen Sie Ihre Sprache",
+			"instructions": "Spielanleitung"
+		},
+		"text": {
+			"level": {
+				"normal": "Normal",
+				"hard": "Schwierig"
+			},
+			"instructions": "Im Spiel des Geistes abwechselnd zwei Spieler Aufbau ein englisches Wort von links nach rechts. Jeder Spieler fügt einen Buchstaben pro Runde. Ziel ist es, die Schreibweise eines Wortes nicht abgeschlossen: Wenn Sie einen Brief, der ein Wort (aus 4 Buchstaben) abgeschlossen ist, oder wenn Sie einen Buchstaben, die eine Zeichenfolge erzeugt, die in ein Wort erweitert werden können hinzufügen, Sie verlieren."
+		
+		}
+	},
+	
+	"title": {
+		"options": "Optionen",
+		"gamePanel": "Spielkonsole"
+	},
+	
+	"tooltip": {
+		"english": "Englisch",
+		"spanish": "Spanisch",
+		"french": "Französisch",
+		"german": "Deutsch",
+		"italian": "Italienisch",
+		"portuguese": "Portugiesisch"
+	},
+	
+	"messages": {
+		"youWin": "Sie gewinnen",
+		"youLose": "Du verlierst",
+		"addLetter": "Bitte fügen Sie einen Brief"
+	},
+	
+	"buttons": {
+		"addLetter": "Fügen Sie Buchstaben",
+		"playAgain": "Wieder spielen"
+	}
+	
+    
+}

@@ -1,0 +1,45 @@
+{
+    
+    "field": {
+		"label": {
+			"level": "Niveau",
+			"chooseLanguage": "Choisissez votre langue",
+			"instructions": "Instructions du jeu"
+		},
+		"text": {
+			"level": {
+				"normal": "Normal",
+				"hard": "Difficile"
+			},
+			"instructions": "Dans le jeu de Ghost, deux joueurs se relaient accumulent un mot anglais, de gauche à droite. Chaque joueur ajoute une lettre par tour. Le but est de ne compléter pas l'orthographe d'un mot : Si vous ajoutez une lettre qui complète un mot (de 4 lettres), ou si vous ajoutez une lettre qui produit une chaîne qui ne peuvent pas être étendue à un mot, vous perdez."
+		
+		}
+	},
+	
+	"title": {
+		"options": "Options",
+		"gamePanel": "Panneau de jeu"
+	},
+	
+	"tooltip": {
+		"english": "Anglais",
+		"spanish": "Espagnol",
+		"french": "Français",
+		"german": "Allemand",
+		"italian": "Italien",
+		"portuguese": "Portugais"
+	},
+	
+	"messages": {
+		"youWin": "Vous gagnez",
+		"youLose": "Tu as perdu",
+		"addLetter": "S'il vous plaît, ajoutez une lettre"
+	},
+	
+	"buttons": {
+		"addLetter": "Ajouter lettre",
+		"playAgain": "Jouer à nouveau"
+	}
+	
+    
+}

@@ -1,0 +1,45 @@
+{
+
+	"field": {
+		"label": {
+			"level": "Nivel",
+			"chooseLanguage": "Escoge tu idioma",
+			"instructions": "Instrucciones del juego"
+		},
+		"text": {
+			"level": {
+				"normal": "Normal",
+				"hard": "Difícil"
+			},
+			"instructions": "En el juego del fantasma, dos jugadores se turnan acumulando una palabra inglesa de izquierda a derecha. Cada jugador añade una letra por turno. El objetivo es no completar la ortografía de una palabra: si añades una letra que completa una palabra (de 4 letras), o si se agrega una letra que produce una cadena que no puede ser extendida en una palabra, se pierde"
+		}
+	},
+	
+	"title": {
+		"options": "Opciones",
+		"gamePanel": "Panel de juego"
+	},
+	
+	"tooltip": {
+		"english": "Inglés",
+		"spanish": "Español",
+		"french": "Francés",
+		"german": "Alemán",
+		"italian": "Italian",
+		"portuguese": "Portugués"
+	},
+	
+	"messages": {
+		"youWin": "Tú ganas",
+		"youLose": "Tú pierdes",
+		"addLetter": "Por favor, añade una letra"
+	},
+	
+	"buttons": {
+		"addLetter": "Añade letra",
+		"playAgain": "Juega otra vez"
+	}
+	
+	
+   
+}
