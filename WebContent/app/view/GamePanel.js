@@ -53,11 +53,15 @@ Ext.define('AM.view.GamePanel' ,{
 						{
 							xtype: 'textfield',
 							id: 'itemIdLetter',
+							allowBlank: false,
 							cls: 'x-text-letter',
 							fieldLabel: '',
 							maxLength: 1,
 							height: 80,
-							width: 80
+							width: 80,
+							vtype: 'alpha',
+							enforceMaxLength: true,
+							maskRe: /^[a-zA-Z]$/
 						},
 						{
 							xtype: 'button',
